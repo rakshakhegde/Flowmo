@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+	<shortcut
+		android:enabled="true"
+		android:icon="@mipmap/ic_launcher"
+		android:shortcutId="send"
+		android:shortcutShortLabel="@string/send">
+		<intent
+			android:action="android.intent.action.VIEW"
+			android:targetClass="io.github.rakshakhegde.flowmo.send_screen.SendActivity"
+			android:targetPackage="io.github.rakshakhegde.flowmo"/>
+	</shortcut>
+	<!-- Specify more shortcuts here. -->
+</shortcuts>

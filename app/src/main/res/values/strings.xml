@@ -1,3 +1,4 @@
 <resources>
 	<string name="app_name">Flowmo</string>
+	<string name="send">Send</string>
 </resources>
